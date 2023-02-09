@@ -13,8 +13,33 @@ let scoreCount = 0;
 let count = 11;
 let countdown;
 
-const quizDisplay = (questionCount) => {
+restart.addEventListener("click", () => {
+    initial();
+    displayContainer.classList.remove("hide");
+    scoreContainer.classList.add("hide");
+  });
 
+  nextBtn.addEventListener(
+    "click",
+    (displayNext = () => {
+      questionCount += 1;
+      if (questionCount == quizArray.length) {
+        displayContainer.classList.add("hide");
+        scoreContainer.classList.remove("hide");
+        userScore.innerHTML =
+          "Your score is " + scoreCount + " out of " + questionCount;
+      } else {
+        countOfQuestion.innerHTML =
+          questionCount + 1 + " of " + quizArray.length + " Question";
+        quizDisplay(questionCount);
+        count = 11;
+        clearInterval(countdown);
+        timerDisplay();
+      }
+    })
+  );
+
+function quizDisplay(questionCount) {
 }
 
 function quizCreator() {
@@ -26,5 +51,15 @@ function checker(userOption) {
 }
 
 function initial() {
-    
+
 }
+
+startButton.addEventListener("click", () => {
+    startScreen.classList.add("hide");
+    displayContainer.classList.remove("hide");
+    initial();
+});
+window.onload = () => {
+    startScreen.classList.remove("hide");
+    displayContainer.classList.add("hide");
+  };
