@@ -13,3 +13,18 @@ let scoreCount = 0;
 let count = 11;
 let countdown;
 
+const quizDisplay = (questionCount) => {
+
+}
+
+function quizCreator() {
+
+}
+
+function checker(userOption) {
+
+}
+
+function initial() {
+    
+}
