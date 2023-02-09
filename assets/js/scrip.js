@@ -13,13 +13,34 @@ let scoreCount = 0;
 let count = 11;
 let countdown;
 
+const quizArray = [
+    {
+      id: "0",
+      question: "Which player has the most Ballon D'ors?",
+      options: ["J.Cruyff", "C.Ronaldo", "L.Messi", "Ronaldo"],
+      correct: "L.Messi",
+    },
+    {
+      id: "1",
+      question: "Which club has won the most Champions Leagues?",
+      options: ["AC Milan", "Manchester United", "Barcelona", "Real Madrid"],
+      correct: "Real Madrid",
+    },
+    {
+      id: "2",
+      question: "Where did the World cup of 2014 take place?",
+      options: ["Brazil", "South Africa", "England", "Russia"],
+      correct: "Brazil",
+    },
+  ];
+
 restart.addEventListener("click", () => {
     initial();
     displayContainer.classList.remove("hide");
     scoreContainer.classList.add("hide");
   });
 
-  nextBtn.addEventListener(
+nextBtn.addEventListener(
     "click",
     (displayNext = () => {
       questionCount += 1;
