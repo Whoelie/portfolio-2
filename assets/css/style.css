@@ -110,3 +110,46 @@ button {
     font-size: 24px;
     color: #ffffff;
   }
+  /* --------- Media queries */
+
+@media (max-width: 414px) {
+    .header {
+        width: 100%;
+    }
+
+    .container {
+        padding: 10% 0;
+        width: 100%;
+        display: block;
+    }
+
+    .container span {
+        padding: 0;
+    }
+
+    .score-area {
+        width: 100%;
+    }
+
+    }
+
+    .heading {
+        font-size: 2rem;
+    }
+
+
+@media (max-width: 320px) {
+    .game-area {
+        height: 70vh;
+    }
+
+    .header {
+        width: 75%;
+        margin: 10px auto;
+    }
+
+    .container {
+        padding: 10px 0;
+    }
+
+}
