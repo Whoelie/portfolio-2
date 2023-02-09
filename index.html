@@ -16,9 +16,24 @@
     <h1 class="heading">
         <img class="logo" src="assets/images/logo.png" alt="logo"> Football Quiz
     </h1>
+    <div class="start-screen">
+        <button id="start-button">Start</button>
+    </div>
 
-    <div class="game area">
-
+    <div id="game-area">
+      <div class="header">
+        <div class="number-of-count">
+          <span class="number-of-question">1 of 5 questions</span>
+        </div>
+        <div class="timer">
+          <img src="assets/images/timer.png" />
+          <span class="time-left">15s</span>
+        </div>
+      </div>
+      <div id="container">
+        <!-- questions and options will be displayed here -->
+      </div>
+      <button id="next-button">Next</button>
     </div>
 
     <div class="score-area hidden">
