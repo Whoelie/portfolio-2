@@ -27,3 +27,69 @@ button {
     height: 30px;
     padding-right: 4px;
   }
+  #start-button,
+  #restart {
+    font-size: 20.8px;
+    padding: 8px 28.8px;
+    border-radius: 3.2px;
+  }
+  #restart {
+    margin-top: 14.4px;
+  }
+  #game-area {
+    background-color: #ffffff;
+    padding: 49.6px 28.8px;
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 9.6px;
+  }
+  .header {
+    margin-bottom: 28.8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 9.6px;
+    border-bottom: 1.6px solid #c0bfd2;
+  }
+  .timer {
+    background-color: #3f0aed;
+    width: 120px;
+    border-radius: 28.8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 11.2px 28.8px;
+  }
+  .question {
+    margin-bottom: 20px;
+    font-weight: 600;
+  }
+  .option-div {
+    font-size: 14.4px;
+    width: 100%;
+    padding: 1em;
+    margin: 4.8px 0;
+    text-align: left;
+    outline: none;
+    background: transparent;
+    border: 1px solid #c0bfd2;
+    border-radius: 4.8px;
+  }
+  .option-div:disabled {
+    color: #000000;
+    cursor: not-allowed;
+  }
+  #next-button {
+    font-size: 16px;
+    margin-top: 24px;
+    background-color: #3f0aed;
+    color: #ffffff;
+    padding: 11.2px 28.8px;
+    border-radius: 4.8px;
+    float: right;
+  }
