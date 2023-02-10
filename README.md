@@ -1,6 +1,6 @@
 # Football Quiz
 
-![Responsice Mockup](assets/images/Football_Quiz_mockup.png)
+![Responsive Mockup](assets/images/Football_Quiz_mockup.png)
 
 ## Existing Features
 
