@@ -1,9 +1,12 @@
 body {
-    background-color: white;
-    font-family: "Raleway", sans-serif;
-    color: #445361;
-    text-align: center;
+  background-color: white;
+  font-family: "Raleway", sans-serif;
+  color: #3a3a3a;
+  text-align: center;
 }
+
+  /* --------- game area */
+
 .start-screen, .score-area {
   position: absolute;
   top: 0;

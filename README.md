@@ -62,5 +62,5 @@ The live link can be found here - https://whoelie.github.io/portfolio-2/
 
 ### Support
 
-    - My friend helped with the timer in javascript
+    - The design code and javascript code for the quiz was taken from https://codingartistweb.com/2022/06/quiz-app-with-javascript/
     - The code for the media queries was take from the Love Maths project
